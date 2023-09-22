@@ -7,9 +7,9 @@
 #       extension: .py
 #       format_name: percent
 #       format_version: '1.3'
-#       jupytext_version: 1.14.4
+#       jupytext_version: 1.15.2
 #   kernelspec:
-#     display_name: Python 3
+#     display_name: Python 3 (ipykernel)
 #     language: python
 #     name: python3
 #   language_info:
@@ -21,7 +21,7 @@
 #     name: python
 #     nbconvert_exporter: python
 #     pygments_lexer: ipython3
-#     version: 3.10.8
+#     version: 3.9.18
 #   latex_envs:
 #     LaTeX_envs_menu_present: true
 #     autoclose: false
@@ -189,8 +189,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_02306294ef4948a299a6c670fb2f9673
-#             max: 2.0
-#             min: 1.0
+#             max: 2
+#             min: 1
 #             orientation: horizontal
 #             readout: true
 #             readout_format: .4f
@@ -255,8 +255,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_f30d56d381454799bfdf75da1a77140b
-#             max: 100.0
-#             min: 0.0
+#             max: 100
+#             min: 0
 #             orientation: horizontal
 #             readout: true
 #             readout_format: .1f
@@ -264,7 +264,7 @@
 #             style: IPY_MODEL_ab4a8769f990412f85e28b3b4058ec34
 #             tabbable: null
 #             tooltip: null
-#             value: 100.0
+#             value: 100
 #         0bddc804333744c089d8c7698235f3f1:
 #           model_module: '@jupyter-widgets/controls'
 #           model_module_version: 2.0.0
@@ -284,8 +284,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_1dc7aeb459bd44d29acdfbd8500def07
-#             max: 4.0
-#             min: 1.0
+#             max: 4
+#             min: 1
 #             orientation: horizontal
 #             readout: true
 #             readout_format: .2f
@@ -293,7 +293,7 @@
 #             style: IPY_MODEL_02cbc1a38b954a8d83eafbe1384b9225
 #             tabbable: null
 #             tooltip: null
-#             value: 2.0
+#             value: 2
 #         0ff9ccce5dbb4bb885bb0fb276285b03:
 #           model_module: '@jupyter-widgets/controls'
 #           model_module_version: 2.0.0
@@ -454,11 +454,11 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_6880156108ee4959a8b4e03ea016339a
-#             step: 1.0
+#             step: 1
 #             style: IPY_MODEL_df3f297884dc4677b06188af8991a7e4
 #             tabbable: null
 #             tooltip: null
-#             value: 120.0
+#             value: 120
 #         1dc7aeb459bd44d29acdfbd8500def07:
 #           model_module: '@jupyter-widgets/base'
 #           model_module_version: 2.0.0
@@ -580,8 +580,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_f435540a7b7f4fc896e8dc559e62a270
-#             max: 4.0
-#             min: 0.0
+#             max: 4
+#             min: 0
 #             orientation: horizontal
 #             readout: true
 #             readout_format: .1f
@@ -589,7 +589,7 @@
 #             style: IPY_MODEL_8ce412849e8d4426aef4be1e15e48502
 #             tabbable: null
 #             tooltip: null
-#             value: 0.0
+#             value: 0
 #         2bc34b302e8749dfbf6f700ed970d14d:
 #           model_module: '@jupyter-widgets/controls'
 #           model_module_version: 2.0.0
@@ -609,8 +609,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_1359bbe247174ea9b4904ab87c14735b
-#             max: 100.0
-#             min: 0.0
+#             max: 100
+#             min: 0
 #             orientation: horizontal
 #             readout: true
 #             readout_format: 4f
@@ -618,7 +618,7 @@
 #             style: IPY_MODEL_8860aa95eb7d49418b9301296d897ae0
 #             tabbable: null
 #             tooltip: null
-#             value: 50.0
+#             value: 50
 #         2d58300c964446e8bc02b361697b7c27:
 #           model_module: '@jupyter-widgets/controls'
 #           model_module_version: 2.0.0
@@ -638,8 +638,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_bfe5608390f4410ea944eab468754d87
-#             max: 10.0
-#             min: 0.0
+#             max: 10
+#             min: 0
 #             orientation: horizontal
 #             readout: true
 #             readout_format: 4f
@@ -647,7 +647,7 @@
 #             style: IPY_MODEL_7861eb95114f47b1bcf23730dfeb8c1e
 #             tabbable: null
 #             tooltip: null
-#             value: 10.0
+#             value: 10
 #         37e1361d601c4ed1b22dbc2bdcbd6009:
 #           model_module: '@jupyter-widgets/controls'
 #           model_module_version: 2.0.0
@@ -746,8 +746,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_aa1183caa5214ba48cddde9fb089ce55
-#             max: 100.0
-#             min: 0.0
+#             max: 100
+#             min: 0
 #             orientation: horizontal
 #             readout: true
 #             readout_format: .1f
@@ -755,7 +755,7 @@
 #             style: IPY_MODEL_3843c7be54414b49838655b1bc65cfaa
 #             tabbable: null
 #             tooltip: null
-#             value: 100.0
+#             value: 100
 #         49b514ded6aa4832bc9504e3b9f30c2d:
 #           model_module: '@jupyter-widgets/base'
 #           model_module_version: 2.0.0
@@ -826,8 +826,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_c0ecaabcc8e04143a3f91131c41dcfd3
-#             max: 4.0
-#             min: 0.0
+#             max: 4
+#             min: 0
 #             orientation: horizontal
 #             readout: true
 #             readout_format: 4f
@@ -835,7 +835,7 @@
 #             style: IPY_MODEL_a69df5df7eb64334a7e23f3527715b57
 #             tabbable: null
 #             tooltip: null
-#             value: 2.0
+#             value: 2
 #         4c03ed41d64f4e84b0175ce289a703ca:
 #           model_module: '@jupyter-widgets/controls'
 #           model_module_version: 2.0.0
@@ -855,8 +855,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_638c78fd68ae42af87c0aa22a4a17041
-#             max: 4.0
-#             min: 0.0
+#             max: 4
+#             min: 0
 #             orientation: horizontal
 #             readout: true
 #             readout_format: .2f
@@ -864,7 +864,7 @@
 #             style: IPY_MODEL_07821a3fe36149d39afc9d893ddf721d
 #             tabbable: null
 #             tooltip: null
-#             value: 1.0
+#             value: 1
 #         4d286f3c95be47f9977de6b2814d1c91:
 #           model_module: '@jupyter-widgets/base'
 #           model_module_version: 2.0.0
@@ -935,8 +935,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_e16670ca8f594c108f04df1d8f8e39a9
-#             max: 2.0
-#             min: 1.0
+#             max: 2
+#             min: 1
 #             orientation: horizontal
 #             readout: true
 #             readout_format: .4f
@@ -1065,11 +1065,11 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_a9184ae684c3467f9cdf626d65dbaee7
-#             step: 1.0
+#             step: 1
 #             style: IPY_MODEL_7e90c0209ae743cc8d781cbf3b94009f
 #             tabbable: null
 #             tooltip: null
-#             value: 120.0
+#             value: 120
 #         59d634264f6b4a1d884eab821e72e661:
 #           model_module: '@jupyter-widgets/base'
 #           model_module_version: 2.0.0
@@ -1268,8 +1268,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_c19f562eda804309bfaacafb79218593
-#             max: 4.0
-#             min: 0.0
+#             max: 4
+#             min: 0
 #             orientation: horizontal
 #             readout: true
 #             readout_format: .1f
@@ -1277,7 +1277,7 @@
 #             style: IPY_MODEL_a71735867303434db2b48f53ee105bca
 #             tabbable: null
 #             tooltip: null
-#             value: 0.0
+#             value: 0
 #         6880156108ee4959a8b4e03ea016339a:
 #           model_module: '@jupyter-widgets/base'
 #           model_module_version: 2.0.0
@@ -1348,8 +1348,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_bab204060fc441a3ab456b81e2e120ae
-#             max: 100.0
-#             min: 0.0
+#             max: 100
+#             min: 0
 #             orientation: horizontal
 #             readout: true
 #             readout_format: .1f
@@ -1357,7 +1357,7 @@
 #             style: IPY_MODEL_7a4c18f3c54040b8963d0187826f92ce
 #             tabbable: null
 #             tooltip: null
-#             value: 0.0
+#             value: 0
 #         72a44fed109b42f9b00aac134fc1e69d:
 #           model_module: '@jupyter-widgets/base'
 #           model_module_version: 2.0.0
@@ -1440,11 +1440,11 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_06ca4200168f402ea487d12d3bcd5698
-#             step: 1.0
+#             step: 1
 #             style: IPY_MODEL_cc550b93c2174c2ba1f9dc8de428bc72
 #             tabbable: null
 #             tooltip: null
-#             value: 120.0
+#             value: 120
 #         7861eb95114f47b1bcf23730dfeb8c1e:
 #           model_module: '@jupyter-widgets/controls'
 #           model_module_version: 2.0.0
@@ -1491,11 +1491,11 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_49b514ded6aa4832bc9504e3b9f30c2d
-#             step: 1.0
+#             step: 1
 #             style: IPY_MODEL_d66418fd071d402bb7fb640538db0431
 #             tabbable: null
 #             tooltip: null
-#             value: 120.0
+#             value: 120
 #         7dfdd6ba0444452f8b2a32783c53b944:
 #           model_module: '@jupyter-widgets/base'
 #           model_module_version: 2.0.0
@@ -1579,8 +1579,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_2280954eaf384169bc7d091981be5bb0
-#             max: 4.0
-#             min: 1.0
+#             max: 4
+#             min: 1
 #             orientation: horizontal
 #             readout: true
 #             readout_format: .2f
@@ -1588,7 +1588,7 @@
 #             style: IPY_MODEL_bfa4e1a400874f4590b953f0970d470d
 #             tabbable: null
 #             tooltip: null
-#             value: 2.0
+#             value: 2
 #         7fdc550d33ff43bca51215fda04e1dce:
 #           model_module: '@jupyter-widgets/controls'
 #           model_module_version: 2.0.0
@@ -1608,7 +1608,7 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_b52dff3d0d304ed1920b1c883ce6fc5e
-#             max: 4.0
+#             max: 4
 #             min: 1.1
 #             orientation: horizontal
 #             readout: true
@@ -1617,7 +1617,7 @@
 #             style: IPY_MODEL_9239760b582843b886a23d7a9b3b4d6f
 #             tabbable: null
 #             tooltip: null
-#             value: 2.0
+#             value: 2
 #         801b678d41b8479a98e8e055445d1a23:
 #           model_module: '@jupyter-widgets/base'
 #           model_module_version: 2.0.0
@@ -2003,8 +2003,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_b7d68e8ed4a0499db37b7b3e242d4298
-#             max: 100.0
-#             min: 0.0
+#             max: 100
+#             min: 0
 #             orientation: horizontal
 #             readout: true
 #             readout_format: .1f
@@ -2012,7 +2012,7 @@
 #             style: IPY_MODEL_dd3c6b40e2834f078995d6d1bb3c6c91
 #             tabbable: null
 #             tooltip: null
-#             value: 100.0
+#             value: 100
 #         b4a897ec6e154696a21baceae359689f:
 #           model_module: '@jupyter-widgets/base'
 #           model_module_version: 2.0.0
@@ -2287,7 +2287,7 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_4d286f3c95be47f9977de6b2814d1c91
-#             max: 1.0
+#             max: 1
 #             min: 0.5
 #             orientation: horizontal
 #             readout: true
@@ -2496,11 +2496,11 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_6056683902084a4299a66a21e41f9a50
-#             step: 1.0
+#             step: 1
 #             style: IPY_MODEL_7714a23ce66142eab576a4a6f0ec516c
 #             tabbable: null
 #             tooltip: null
-#             value: 120.0
+#             value: 120
 #         c514988d2b4948e49b2f87faa0868939:
 #           model_module: '@jupyter-widgets/controls'
 #           model_module_version: 2.0.0
@@ -2519,11 +2519,11 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_55d572b28bdb4fe58425ea57b49b8d8e
-#             step: 1.0
+#             step: 1
 #             style: IPY_MODEL_06e3ccd0cec44e68b005d0c217d9597a
 #             tabbable: null
 #             tooltip: null
-#             value: 120.0
+#             value: 120
 #         c9003fdc082b48a18f38c32796e46c0f:
 #           model_module: '@jupyter-widgets/output'
 #           model_module_version: 1.0.0
@@ -2657,8 +2657,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_801b678d41b8479a98e8e055445d1a23
-#             max: 4.0
-#             min: 0.0
+#             max: 4
+#             min: 0
 #             orientation: horizontal
 #             readout: true
 #             readout_format: .2f
@@ -2666,7 +2666,7 @@
 #             style: IPY_MODEL_0ff9ccce5dbb4bb885bb0fb276285b03
 #             tabbable: null
 #             tooltip: null
-#             value: 1.0
+#             value: 1
 #         d66418fd071d402bb7fb640538db0431:
 #           model_module: '@jupyter-widgets/controls'
 #           model_module_version: 2.0.0
@@ -2724,7 +2724,7 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_7dfdd6ba0444452f8b2a32783c53b944
-#             max: 1.0
+#             max: 1
 #             min: 0.5
 #             orientation: horizontal
 #             readout: true
@@ -2896,8 +2896,8 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_72a44fed109b42f9b00aac134fc1e69d
-#             max: 100.0
-#             min: 0.0
+#             max: 100
+#             min: 0
 #             orientation: horizontal
 #             readout: true
 #             readout_format: 4f
@@ -2905,7 +2905,7 @@
 #             style: IPY_MODEL_bf66b508aa634c58975bdec658df68dc
 #             tabbable: null
 #             tooltip: null
-#             value: 50.0
+#             value: 50
 #         f0bb36648620424ea0cc3925828cc70c:
 #           model_module: '@jupyter-widgets/base'
 #           model_module_version: 2.0.0
@@ -2975,11 +2975,11 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_506a1b4d43be41afa54c0062cfbd0e02
-#             step: 1.0
+#             step: 1
 #             style: IPY_MODEL_9da20b1f732a478799a4b030db1473de
 #             tabbable: null
 #             tooltip: null
-#             value: 20.0
+#             value: 20
 #         f30d56d381454799bfdf75da1a77140b:
 #           model_module: '@jupyter-widgets/base'
 #           model_module_version: 2.0.0
@@ -3127,11 +3127,11 @@
 #             description_allow_html: false
 #             disabled: false
 #             layout: IPY_MODEL_a553c7659ef1479483b4eab88c7db483
-#             step: 1.0
+#             step: 1
 #             style: IPY_MODEL_f745c628294b44118ad86d079f68368c
 #             tabbable: null
 #             tooltip: null
-#             value: 20.0
+#             value: 20
 #       version_major: 2
 #       version_minor: 0
 # ---
@@ -3151,7 +3151,7 @@ import numpy as np
 from copy import deepcopy
 from matplotlib import pyplot as plt
 
-plt.style.use("seaborn-darkgrid")
+#plt.style.use("seaborn-darkgrid")
 palette = plt.get_cmap("Dark2")
 
 
@@ -3387,7 +3387,7 @@ def FisherPlot1(Y1, Y2, B1, RHi, RLo, c1Max, c2Max):
     C2_V_RLo = (((1 - CRRA) * V_RLo - C1_V_RLo ** (1 - CRRA)) / Beta) ** (
         1 / (1 - CRRA)
     )
-    plt.plot(C1_V_RLo, C2_V_RLo, "b-", label="Indiferrence Curve R Low")
+    plt.plot(C1_V_RLo, C2_V_RLo, "b-", label="Indifference Curve R Low")
 
     V_RHi = C1_opt_RHi ** (1 - CRRA) / (1 - CRRA) + Beta * C2_opt_RHi ** (1 - CRRA) / (
         1 - CRRA
@@ -3396,7 +3396,7 @@ def FisherPlot1(Y1, Y2, B1, RHi, RLo, c1Max, c2Max):
     C2_V_RHi = (((1 - CRRA) * V_RHi - C1_V_RHi ** (1 - CRRA)) / Beta) ** (
         1 / (1 - CRRA)
     )
-    plt.plot(C1_V_RHi, C2_V_RHi, "b--", label="Indiferrence Curve R High")
+    plt.plot(C1_V_RHi, C2_V_RHi, "b--", label="Indifference Curve R High")
 
     # The substitution effect
     C1_Subs = (
@@ -3406,7 +3406,7 @@ def FisherPlot1(Y1, Y2, B1, RHi, RLo, c1Max, c2Max):
 
     C1_bc_Subs = np.linspace(c1Min, B1 + Y1 + Y2 / RHi, 10, endpoint=True)
     C2_bc_Subs = (C1_Subs + C2_Subs / RLo - C1_bc_Subs) * RLo + Y2
-    plt.plot(C1_bc_Subs, C2_bc_Subs, "k-")
+    plt.plot(C1_bc_Subs, C2_bc_Subs, "gray", label="Compensated budget constraint")
 
     # Plot the points of interest
     plt.plot(C1_opt_RLo, C2_opt_RLo, "ro", label="A: Optimal Consumption R Low")
@@ -3716,7 +3716,6 @@ interact(
 # %%
 # Create plotting function
 def FisherPlot3(M1, R, Beta, CRRA, c1Max, c2Max):
-
     # Basic setup of perfect foresight consumer
 
     # We first create an instance of the class
@@ -3724,15 +3723,19 @@ def FisherPlot3(M1, R, Beta, CRRA, c1Max, c2Max):
     PFexample = PerfForesightConsumerType()
 
     PFexample.cycles = 1  # let the agent live the cycle of periods just once
-    PFexample.T_cycle = 1  # One single non-terminal period
-    PFexample.PermGroFac = [0]  # No income in the second period
+    PFexample.T_cycle = 2  # One single non-terminal period
+    PFexample.PermGroFac = [1.0]  # No income in the second period
     PFexample.LivPrb = [1.0]  # No chance of dying before the second period
+
+    PFexample.AgentCount = 1
 
     # Set interest rate and bank balances from input.
     PFexample.Rfree = R
     PFexample.CRRA = CRRA
     PFexample.DiscFac = Beta
-
+    PFexample.aNrmInitStd = 0.0
+    PFexample.aNrmInitMean = M1#0.0
+    
     # Solve the model: this generates the optimal consumption function.
 
     # Try-except blocks "try" to execute the code in the try block. If an
@@ -3822,7 +3825,7 @@ CRRA_widget = widgets.FloatSlider(
     min=1.1,
     max=4.0,
     step=0.1,
-    value=2,
+    value=2.0,
     continuous_update=True,
     readout_format=".4f",
     description="$\\rho$",
@@ -3831,11 +3834,11 @@ CRRA_widget = widgets.FloatSlider(
 # Define a slider for M1
 M1_widget = widgets.FloatSlider(
     min=0.0,
-    max=10.0,
-    step=0.1,
-    value=50.0,
+    max=100.0,
+    step=0.5,
+    value=5.0,
     continuous_update=True,
-    readout_format="4f",
+    readout_format=".4f",
     description="$M_1$",
 )
 
@@ -3859,3 +3862,11 @@ interact(
     c1Max=c1Max_widget,
     c2Max=c2Max_widget,
 )
+
+# %% [markdown]
+# - Doesn't seem to work very well when M1 close to zero (no tangency)
+# - Doesn't matter whether M1 introduced as B1 (so in the aNrmInitMean attribute) or as Y1 (with aNrmInitMean = 0)
+
+# %% [markdown]
+# Main conclusions:
+# - Higher $\rho$ leads to less flat indifference curves: a change in R will change consumption less (lower IES)

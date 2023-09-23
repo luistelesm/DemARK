@@ -9,7 +9,7 @@
 #       extension: .py
 #       format_name: percent
 #       format_version: '1.3'
-#       jupytext_version: 1.14.4
+#       jupytext_version: 1.14.5
 #   kernelspec:
 #     display_name: Python 3 (ipykernel)
 #     language: python
@@ -35,13 +35,13 @@
 #
 # The `KinkedRconsumerType` class solves the problem of a consumer for whom the interest rate on borrowing is higher than the rate that the consumer will receive on any positive saving they do.  The default calibration is meant to capture a case where the borrowing occurs at an interest rate typical of credit cards.
 #
-# (Fuller discussion of the issues here can be found in [A Theory of the Consumption Function, With or Without Liquidity Constraints](http://econ.jhu.edu/people/ccarroll/ATheoryv3JEP.pdf))
+# (Fuller discussion of the issues here can be found in [A Theory of the Consumption Function, With or Without Liquidity Constraints](http://www.econ2.jhu.edu/people/ccarroll/ATheoryv3JEP.pdf))
 
 # %% {"code_folding": [0]}
 import matplotlib.pyplot as plt
 from copy import deepcopy
 from HARK.ConsumptionSaving.ConsIndShockModel import KinkedRconsumerType
-from HARK.utilities import plot_funcs_der, plot_funcs
+from HARK.utilities import plot_funcs
 
 
 def mystr(number):

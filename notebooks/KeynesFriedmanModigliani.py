@@ -9,7 +9,7 @@
 #       extension: .py
 #       format_name: percent
 #       format_version: '1.3'
-#       jupytext_version: 1.14.4
+#       jupytext_version: 1.14.5
 #   kernelspec:
 #     display_name: Python 3
 #     language: python
@@ -61,16 +61,12 @@
 
 # %% {"code_folding": []}
 # Some initial setup
-from HARK.utilities import plot_funcs_der, plot_funcs
 from HARK.ConsumptionSaving.ConsIndShockModel import PerfForesightConsumerType
 import pandas_datareader.data as web
-from copy import deepcopy
 import statsmodels.formula.api as sm
 import scipy.stats as stats
 import datetime as dt
 import pandas as pd
-import sys
-import os
 from matplotlib import pyplot as plt
 import numpy as np
 
@@ -104,6 +100,7 @@ pd.core.common.is_list_like = pd.api.types.is_list_like
 # %% [markdown]
 # #### The Keynesian Consumption Function
 
+
 # %% {"code_folding": []}
 class KeynesianConsumer:
     """
@@ -117,7 +114,6 @@ class KeynesianConsumer:
     """
 
     def __init__(self):
-
         Keynesian = (
             PerfForesightConsumerType()
         )  # set up a consumer type and use default parameteres
@@ -289,7 +285,7 @@ result.summary()
 # %% [markdown]
 # #### Friedman's Permanent Income Hypothesis
 #
-# We begin by creating a class that class implements the Friedman PIH consumption function as a special case of the [Perfect Foresight CRRA](http://econ.jhu.edu/people/ccarroll/courses/choice/lecturenotes/consumption/PerfForesightCRRA) model.
+# We begin by creating a class that class implements the Friedman PIH consumption function as a special case of the [Perfect Foresight CRRA](http://www.econ2.jhu.edu/people/ccarroll/courses/choice/lecturenotes/consumption/PerfForesightCRRA) model.
 #
 # As discussed in the lecture notes, it is often convenient to represent this type of models in variables that are normalized by permanent income. That is the case for the [HARK](https://github.com/econ-ark/HARK/) tools that we use below in the definition of our consumer. Therefore, the consumption function will expect
 # \begin{equation*}
@@ -301,6 +297,7 @@ result.summary()
 # \end{equation*}
 #
 # Therefore, to find consumption at a total level of income $Y$, we will use $\texttt{P} \times \texttt{cFunc(Y/P)}$.
+
 
 # %% {"code_folding": []}
 class FriedmanPIHConsumer:
@@ -315,7 +312,6 @@ class FriedmanPIHConsumer:
     """
 
     def __init__(self, Rfree=1.001, CRRA=2):
-
         FriedmanPIH = (
             PerfForesightConsumerType()
         )  # set up a consumer type and use default parameteres

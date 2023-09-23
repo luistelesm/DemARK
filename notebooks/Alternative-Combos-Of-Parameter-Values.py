@@ -9,7 +9,7 @@
 #       extension: .py
 #       format_name: percent
 #       format_version: '1.3'
-#       jupytext_version: 1.14.4
+#       jupytext_version: 1.14.5
 #   kernelspec:
 #     display_name: Python 3 (ipykernel)
 #     language: python
@@ -53,9 +53,9 @@
 #
 # ## Introduction
 #
-# The notebook "Micro-and-Macro-Implications-of-Very-Impatient-HHs" is an exercise that demonstrates the consequences of changing a key parameter of the [cstwMPC](http://econ.jhu.edu/people/ccarroll/papers/cstwMPC) model, the time preference factor $\beta$.
+# The notebook "Micro-and-Macro-Implications-of-Very-Impatient-HHs" is an exercise that demonstrates the consequences of changing a key parameter of the [cstwMPC](http://www.econ2.jhu.edu/people/ccarroll/papers/cstwMPC) model, the time preference factor $\beta$.
 #
-# The [REMARK](https://github.com/econ-ark/REMARK) `SolvingMicroDSOPs` reproduces the last figure in the [SolvingMicroDSOPs](http://econ.jhu.edu/people/ccarroll/SolvingMicroDSOPs) lecture notes, which shows that there are classes of alternate values of $\beta$ and $\rho$ that fit the data almost as well as the exact 'best fit' combination.
+# The [REMARK](https://github.com/econ-ark/REMARK) `SolvingMicroDSOPs` reproduces the last figure in the [SolvingMicroDSOPs](http://www.econ2.jhu.edu/people/ccarroll/SolvingMicroDSOPs) lecture notes, which shows that there are classes of alternate values of $\beta$ and $\rho$ that fit the data almost as well as the exact 'best fit' combination.
 #
 # Inspired by this comparison, this notebook asks you to examine the consequences for:
 #
@@ -74,7 +74,7 @@
 # * The cstwMPC model solves and simulates the problems of consumers with 7 different values of $\beta$
 #    * You should do your exercise using the middle value of $\beta$ from that exercise:
 #       * `DiscFac_mean   = 0.9855583`
-# * You are likely to run into the problem, as you experiment with parameter values, that you have asked HARK to solve a model that does not satisfy one of the impatience conditions required for the model to have a solution.  Those conditions are explained intuitively in the [TractableBufferStock](http://econ.jhu.edu/people/ccarroll/public/lecturenotes/consumption/TractableBufferStock/) model.  The versions of the impatience conditions that apply to the $\texttt{IndShockConsumerType}$ model can be found in the paper [BufferStockTheory](http://econ.jhu.edu/people/ccarroll/papers/BufferStockTheory), table 2.
+# * You are likely to run into the problem, as you experiment with parameter values, that you have asked HARK to solve a model that does not satisfy one of the impatience conditions required for the model to have a solution.  Those conditions are explained intuitively in the [TractableBufferStock](http://www.econ2.jhu.edu/people/ccarroll/public/lecturenotes/consumption/TractableBufferStock/) model.  The versions of the impatience conditions that apply to the $\texttt{IndShockConsumerType}$ model can be found in the paper [BufferStockTheory](http://www.econ2.jhu.edu/people/ccarroll/papers/BufferStockTheory), table 2.
 #    * The conditions that need to be satisfied are:
 #       * The Growth Impatience Condition (GIC)
 #       * The Return Impatience Condition (RIC)
@@ -86,13 +86,9 @@
 
 # %matplotlib inline
 from HARK.utilities import get_lorenz_shares, get_percentiles
-import matplotlib.pyplot as plt
 from tqdm import tqdm
 import numpy as np
-from copy import deepcopy
 
-import HARK  # Prevents import error from Demos repo
-from HARK.utilities import plot_funcs
 
 # %% {"code_folding": [0, 4]}
 # Import IndShockConsumerType
@@ -180,7 +176,6 @@ aLvl_all = np.concatenate([ThisType.state_now["aLvl"] for ThisType in MyTypes])
 # Your next exercise is to show how the distribution of wealth differs for the different parameter  values
 
 # %%
-
 # Finish filling in this function to calculate the Euclidean distance between the simulated and actual Lorenz curves.
 
 
@@ -226,6 +221,7 @@ def calcLorenzDistance(SomeTypes):
 # Your function should take two inputs: a list of types of consumers and an array of percentiles (numbers between 0 and 1). It should return no outputs, merely print to screen one line of text for each requested percentile.  The model is calibrated at a quarterly frequency, but Carroll et al report MPCs at an annual frequency. To convert, use the formula:
 #
 # $\kappa_{Y} \approx 1.0 - (1.0 - \kappa_{Q})^4$
+
 
 # %%
 # Write a function to tell us about the distribution of the MPC in this code block, then test it!
